@@ -5,7 +5,7 @@ class SearchDivider extends Component {
     render() {
         return(
             <div className="SearchDivider">
-                <a id="searchbar-link" href=""><img id="searchbar-image" src={require("../search-button@2x.png")} alt=""/></a>
+                <a id="searchbar-link" href="https://juansuarez.allmiamihousesforsale.com/"><img id="searchbar-image" src={require("../search-button@2x.png")} alt=""/></a>
             </div>
         )
     }
