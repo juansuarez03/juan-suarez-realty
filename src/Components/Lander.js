@@ -32,7 +32,13 @@ class Lander extends Component {
                     <a className="nav-button" href="#Communities" onClick={() => this.scrollToElement('communities')}>Communities</a>
                     <a className="nav-button" href="#About" onClick={() => this.scrollToElement('about')}>About</a>
                 </div>
-                <div className="title">Juan <span style={{color: '#B09A50'}}>knows</span> South Florida <br/> <span style={{color: '#B09A50'}}>Luxury</span> Real Estate</div>
+                <div className="title">Juan <span style={{color: '#B09A50'}}>knows</span> South Florida <br/> 
+                    <span style={{color: '#B09A50'}}>Luxury</span> Real Estate <br/> 
+                    <div className="contact-info">
+                        <a className="contact-link" href="mailto:juansuarez.realty@gmail.com">juansuarez.realty@gmail.com</a>
+                        <a className="contact-link" href="tel:786-609-8208">(786)-609-8208</a>
+                    </div>
+                </div>
             </div>
         )
     }

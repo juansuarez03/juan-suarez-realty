@@ -1,4 +1,4 @@
-.Why {
+.why-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,18 +9,37 @@
     overflow: hidden;
 }
 
+.why-content {
+    display: flex;
+    flex-flow: column;
+    margin-left: 100px;
+}
+
+p {
+    /* max-width: 700px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    line-height: 1.6em;
+}
+
+.why-content p {
+    width: calc(100% * (1/2) - 50px);
+    max-width: 700px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    line-height: 1.6em;
+}
+
 h1 {
     display: flex;
-    /* position: absolute; */
     margin: 0px;
     width: 100%;
     text-align: left;
     font-family: 'Prata', serif;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 400;
     color: #231F20;
-    /* padding-left: 50px; */
-    padding-top: 100px;
+    margin-top: 100px;
     overflow: hidden;
 }
   
@@ -34,31 +53,26 @@ h1 {
     margin-left: 25px;
   }
 
-/* .line {
-    background-color: #B09A50;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 100%;
-    position: absolute;
-    margin-top: 125px;
-    margin-left: 150px;
-    overflow: hidden;
-} */
-
-.gold-block {
+.gold-bg {
     flex-grow: 1;
     display: flex;
     max-height: 200px;
     content: '\a0';
     background-color: rgb(176, 154, 80, 0.4);
-    /* position: absolute; */
     width: 100%;
-    /* margin-top: 450px; */
     margin-bottom: 50px;
     left: 0px;
+}
+
+.stats-wrapper {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    max-width: calc(100% * (1/2) - 50px);
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
 }
 
 .stat {
@@ -67,53 +81,25 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* margin-right: 9vw; */
 }
 
 #stat-number {
-    font-size: calc(6vw);
+    font-size: 4vw;
     font-family: 'Prata';
 }
 
 #stat-text {
-    font-size: calc(0.7vw + 0.1vh + 0.7vmin);
+    font-size: 1vw;
     font-family: 'Lato';
     font-weight: 200
 }
 
-.stat-wrapper {
-    display: flex;
-    align-content: center;
-    width: 100%;
-    max-width: calc(100vw - 470px);
-    /* margin-left: 50px; */
-    justify-content: space-around;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.body {
-    display: flex;
-    flex-flow: column;
-    padding-left: 50px;
-}
-
-p {
-    /* padding-top: 175px; */
-    padding-right: 490px;
-    max-width: 700px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    line-height: 1.6em;
-}
-
-img {
+#juan-why {
     position: absolute;
-    /* padding-top: 50px; */
-    background-size: contain;
-    width: 440px;
+    max-width: 33%;
     right: 50px;
-    top: 50px;
+    top: 15%;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.2);
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -121,42 +107,41 @@ img {
 }
 
 @media only screen and (max-width: 900px) {
-    .Why {
+    .why-section {
         height: auto;
     }
 
     h1 {
-        /* position: static; */
         width: auto;
         font-size: 24px;
         padding-left: 25px;
-        padding-top: 25px;
+        margin-top: 25px;
     }
 
     h1:after {
         margin-left: 8px;
     }
 
-    img {
+    #juan-why {
         position: static;
-        padding-top: 0px;
         max-width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 80vw;
         align-self: center;
     }
 
-    .body {
-        /* flex-direction: column-reverse; */
-        padding: 0;
+    .why-content {
+        margin: 0;
     }
 
-    p {
-        /* padding-top: 0px; */
-        padding-right: 25px;
-        padding-left: 25px;
-        
+    .why-content p {
+        padding: 0px;
+        width: 80vw;
+        align-self: center;
     }
 
-    .gold-block {
+    .gold-bg {
         margin: 0px;
         position: static;
     }
@@ -169,8 +154,9 @@ img {
         font-size: 3vw;
     }
 
-    .stat-wrapper {
+    .stats-wrapper {
         margin-left: 0px;
         max-width: none;
+        justify-content: space-around;
     }
 }

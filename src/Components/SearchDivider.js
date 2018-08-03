@@ -4,7 +4,9 @@ import '../Styling/SearchDivider.css';
 class SearchDivider extends Component {
     render() {
         return(
-            <div className="SearchDivider">SearchDivider</div>
+            <div className="SearchDivider">
+                <a id="searchbar-link" href=""><img id="searchbar-image" src={require("../search-button@2x.png")} alt=""/></a>
+            </div>
         )
     }
 }

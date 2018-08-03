@@ -1,11 +1,3 @@
-.entry-point {
-    height: 80vh;
-    width: 100vw;
-    background-color: blue;
-    /* display: flex;
-    flex-direction: column; */
-}
-
 .hero {
     height: 80vh;
     width: 100vw;
@@ -13,7 +5,7 @@
     background-image: url("../hero-image@2x.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,6 +13,7 @@
 }
 
 .nav {
+    padding-top: 50px;
     height: 10%;
     width: 100%;
     display: flex;
@@ -30,7 +23,6 @@
 
 .nav-button {
     padding-right: 50px;
-    padding-top: 20px;
     text-decoration: none;
     color: #231F20;
     font-family: 'Lato', sans-serif;
@@ -47,19 +39,53 @@
     /* align-self: center; */
     text-align: center;
     font-family: 'Prata', serif;
-    font-size: 3.5vw;
+    font-size: 4vw;
     color: #231F20;
 }
 
-@media only screen and (max-width: 450px) {
+.contact-info {
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-link {
+    text-decoration: underline;
+    text-decoration-color: #B09A50;
+    margin-top: 12px;
+    font-family: Lato;
+    font-weight: 100;
+    font-size: 1.5vw;
+    color: #000000;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+.contact-link:hover {
+    box-shadow: inset 0px -0.5em 0 0 #B09A50;
+}
+
+@media only screen and (max-width: 900px) {
     .title {
         font-size: 24px;
     }
     .nav {
         justify-content: space-evenly;
+        padding-top: 25px;
     }
     .nav-button {
         padding-right: 0;
         font-size: 12px;
+    }
+
+    .title {
+        width: 80vw;
+    }
+
+    .contact-link {
+        font-size: 4vw;
     }
 }

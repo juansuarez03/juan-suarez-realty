@@ -4,8 +4,8 @@ import '../Styling/Why.css';
 class Why extends Component {
     render() {
         return(
-            <div className="Why">
-                <div className="body">
+            <div className="why-section">
+                <div className="why-content">
                     <h1>Why</h1>
                     <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. 
                         Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
@@ -15,9 +15,9 @@ class Why extends Component {
                         User generated content in real-time will have multiple touchpoints for offshoring.
                     </p>
                 </div>
-                <img src={require("../tyler-nix-490500-unsplash@2x.png")} alt="Juan-Ugly" />
-                <div className="gold-block">
-                    <div className="stat-wrapper">
+                <img id="juan-why" src={require("../juan.png")} alt="Juan-Ugly" />
+                <div className="gold-bg">
+                    <div className="stats-wrapper">
                         <div className="stat">
                             <span id="stat-number">2.3</span>
                             <span id="stat-text">million in sales last year</span>
