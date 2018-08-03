@@ -58,7 +58,7 @@ h1 {
     display: flex;
     max-height: 200px;
     content: '\a0';
-    background-color: rgb(176, 154, 80, 0.4);
+    background-color: rgba(176, 154, 80, 0.4);
     width: 100%;
     margin-bottom: 50px;
     left: 0px;

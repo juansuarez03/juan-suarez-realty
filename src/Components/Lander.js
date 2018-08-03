@@ -36,7 +36,7 @@ class Lander extends Component {
                     <span style={{color: '#B09A50'}}>Luxury</span> Real Estate <br/> 
                     <div className="contact-info">
                         <a className="contact-link" href="mailto:juansuarez.realty@gmail.com">juansuarez.realty@gmail.com</a>
-                        <a className="contact-link" href="tel:786-609-8208">(786)-609-8208</a>
+                        <a className="contact-link" href="tel:+1-786-609-8208">(786)-609-8208</a>
                     </div>
                 </div>
             </div>
