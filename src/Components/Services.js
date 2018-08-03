@@ -14,7 +14,7 @@ class Services extends Component {
                             <p id="service-paragraph">Her his client would minutes. 
                                 In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                                 And people the eyes.</p>
-                            <a href="">Let's Buy <img src={require("../arrow-right@2x.png")} alt=""/></a>
+                            <a href="" target="_blank">Let's Buy <img src={require("../arrow-right@2x.png")} alt=""/></a>
                         </div>
                     </span>
                     <span className="service">
@@ -24,7 +24,7 @@ class Services extends Component {
                             <p id="service-paragraph">Her his client would minutes. 
                                 In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                                 And people the eyes.</p>
-                            <a href="">Let's Sell <img src={require("../arrow-right@2x.png")} alt=""/></a>
+                            <a href="" target="_blank">Let's Sell <img src={require("../arrow-right@2x.png")} alt=""/></a>
                         </div>
                     </span>
                     <span className="service">
@@ -34,7 +34,7 @@ class Services extends Component {
                             <p id="service-paragraph">Her his client would minutes. 
                                 In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                                 And people the eyes.</p>
-                            <a href="">Let's Lease <img src={require("../arrow-right@2x.png")} alt=""/></a>
+                            <a href="" target="_blank">Let's Lease <img src={require("../arrow-right@2x.png")} alt=""/></a>
                         </div>
                     </span>
                 </div>

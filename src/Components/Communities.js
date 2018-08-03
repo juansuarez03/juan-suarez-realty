@@ -13,7 +13,7 @@ class Communities extends Component {
                         <p>Her his client would minutes.
                              In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                              And people the eyes.</p>
-                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Coconut%20Grove%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick">Search Coconut Grove<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
+                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Coconut%20Grove%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick" target="_blank">Search Coconut Grove<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
                     </span>
                     <span className="community">
                         <img src={require("../gables@2x.png")} alt="" align="middle"/>
@@ -21,7 +21,7 @@ class Communities extends Component {
                         <p>Her his client would minutes.
                              In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                              And people the eyes.</p>
-                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick/PDQVLZZZTRVY1KTPN/homes-for-sale-in-coral-gables">Search Coral Gables<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
+                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick/PDQVLZZZTRVY1KTPN/homes-for-sale-in-coral-gables" target="_blank">Search Coral Gables<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
                     </span>
                     <span className="community">
                         <img src={require("../miami-beach@2x.png")} alt="" align="middle"/>
@@ -29,7 +29,7 @@ class Communities extends Component {
                         <p>Her his client would minutes.
                              In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                              And people the eyes.</p>
-                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Miami%20Beach%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick">Search Miami Beach<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
+                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Miami%20Beach%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick" target="_blank">Search Miami Beach<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
                     </span>
                     <span className="community">
                         <img src={require("../pinecrest@2x.png")} alt="" align="middle"/>
@@ -37,7 +37,7 @@ class Communities extends Component {
                         <p>Her his client would minutes.
                              In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                              And people the eyes.</p>
-                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Pinecrest%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick">Search Pinecrest<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
+                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Pinecrest%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick" target="_blank">Search Pinecrest<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
                     </span>
                     <span className="community">
                         <img src={require("../kendall@2x.png")} alt="" align="middle"/>
@@ -45,7 +45,7 @@ class Communities extends Component {
                         <p>Her his client would minutes.
                              In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                              And people the eyes.</p>
-                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Kendall%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick">Search Kendall<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
+                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=Kendall%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick" target="_blank">Search Kendall<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
                     </span>
                     <span className="community">
                         <img src={require("../south-miami@2x.png")} alt="" align="middle"/>
@@ -53,7 +53,7 @@ class Communities extends Component {
                         <p>Her his client would minutes.
                              In boss's entire the even what mind influenced was word two is one the was however may lift view. 
                              And people the eyes.</p>
-                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=South%20Miami%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick">Search South Miami<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
+                        <a href="https://juansuarez.allmiamihousesforsale.com/search/quick?acl_city=South%20Miami%2CFL&maxprice=5000000&minbeds=1&minprice=50000&page=1&perpage=12&soldproperty=0&sortby=highestprice&type=quick" target="_blank">Search South Miami<img src={require("../arrow-right@2x.png")} alt="arrow"/></a>
                     </span>
                 </div>
             </div>
