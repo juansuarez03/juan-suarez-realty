@@ -4,10 +4,10 @@ import '../Styling/About.css';
 class About extends Component {
     render() {
         return(
-            <div className="about-section">
-                <h1>About Me</h1>
-                <div className="about-wrapper">
-                    <div className="about-content">
+            <div id="about-container">
+                <h1>About Me <hr style={{height: "1px"}} /></h1>
+                <div id="about-wrapper">
+                    <div id="about-content">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -19,7 +19,7 @@ class About extends Component {
                             <img src={require("../instagram@2x.png")} alt="" style={{height: '20px', width: '20px', marginRight: '12px'}} /> <a className="contact-link" href="https://www.instagram.com/juan____suarez/" target="_blank">@juan____suarez</a><br/><br/>
                         </p>
                     </div>
-                    <img src={require("../juan-about.png")} alt=""/>
+                    <img id="about-me-img" src={require("../juan-about.png")} alt=""/>
                 </div>
             </div>
         )

@@ -1,99 +1,58 @@
-.about-section {
+#about-container {
     display: flex;
     flex-flow: column;
-    /* height: 100vh; */
     width: 100vw;
-    /* margin-top: 100px; */
     overflow: hidden;
 }
 
-.about-section h1 {
-    padding-top: 0px;
-    padding-left: 100px;
-}
-
-/* .about-section p {
-    padding-left: 50px;
+/* #about-container h1 {
+    margin-top: 50px;
 } */
 
-.about-wrapper {
+#about-wrapper {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     margin-top: 25px;
     margin-right: 100px;
     margin-left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
-.about-content {
+#about-content {
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
 
-.about-content p {
-    padding-right: 100px;
-    padding-left: 0px;
-}
-
-.about-content p img {
-    vertical-align: middle;
-    box-shadow: none;
-    padding-right: 12px;
-}
-
-.about-wrapper img {
-    height: calc(100% * (1/2) - 150px);;
-    width: calc(100% * (1/2) - 150px);
+#about-me-img {
+    height: calc(100% * (1/2) - 10px);
+    width: calc(100% * (1/2) - 10px);
     background-size: contain;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
 }
 
-/* .contact-link {
-    text-decoration: underline;
-    text-decoration-color: #B09A50;
-    margin-top: 12px;
-    font-family: Lato;
-    font-weight: 100;
-    font-size: 1.5vw;
-    color: #000000;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
+#about-content p {
+    padding-right: 100px;
 }
-
-.contact-link:hover {
-    box-shadow: inset 0px -0.5em 0 0 #B09A50;
-} */
 
 @media only screen and (max-width: 900px) {
-    .about-section {
-        margin-top: 50px;
-        align-items: center;
-    }
 
-    .about-section h1 {
-        padding-left: 25px;
-        align-self: normal;
-    }
-
-    .about-wrapper {
+    #about-wrapper {
         flex-flow: column-reverse;
-        align-items: center;
+        align-self: center;
         width: 80vw;
         margin: 0;
         margin-top: 25px;
-        /* margin-right: 25px;
-        margin-left: 25px; */
     }
 
-    .about-wrapper img {
+    #about-me-img {
         height: auto;
         width: 80vw;
     }
 
-    .about-content p {
+    #about-content p {
         padding: 0px;
     }
 }

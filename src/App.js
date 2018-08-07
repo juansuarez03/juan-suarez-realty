@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Styling/App.css';
-import Lander from './Components/Lander.js';
+import Hero from './Components/Hero.js';
 import Why from './Components/Why.js';
 import Services from './Components/Services.js';
 import SearchDivider from './Components/SearchDivider.js';
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Lander />
+        <Hero />
         <Element name="why"><Why /></Element>
         <Element name="services"><Services /></Element>
         <SearchDivider />
