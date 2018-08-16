@@ -6,12 +6,11 @@ class Why extends Component {
         return(
             <div id="why-container">
                 <h1>Why <hr style={{height: "1px"}} /></h1>
-                <p id="why-paragraph">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
-                    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
-                    Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                    Bring to the table win-win survival strategies to ensure proactive domination. 
-                    At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. 
-                    User generated content in real-time will have multiple touchpoints for offshoring.
+                <p id="why-paragraph">In Miami it’s is hard to find a dependable Real Estate Agent. 
+                Many Realtors do not answer the phone, do not respond promptly, and are simply not the best negotiators. 
+                I am a young motivated professional that can assure you transparent communication and determined commitment. 
+                I am passionate about helping you achieve your property goals. I was raised in Miami my whole life. 
+                This provides me with a strong understanding of it's culture and neighborhoods.
                 </p>
                 <img id="why-image" src={require("../juan.png")} alt="Juan-Ugly" />
                 <div id="stats-container">
