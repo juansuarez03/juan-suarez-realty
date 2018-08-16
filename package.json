@@ -2,7 +2,7 @@
   "name": "juan-suarez-realty",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://juansuarez03.github.io/juan-suarez-realty",
+  "homepage": "https://juansuarez03.github.io/juan-suarez-realty",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
