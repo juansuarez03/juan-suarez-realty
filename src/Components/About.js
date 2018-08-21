@@ -9,9 +9,11 @@ class About extends Component {
                 <div id="about-wrapper">
                     <div id="about-content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Juan Suarez is a real estate advisor for Luxe Properties. 
+                        He is a young motivated, professional real estate agent attending Florida International University working toward his BBA in both Finance and Real Estate. 
+                        Prior to becoming an agent, Juan handled Analytical Property Data and Property Management. 
+                        This experience has helped him learn how to analyze the market, manage his duties efficiently and always fulfill his clients goals. 
+                        Juan Suarez has a long track record of successful transactions all based in South Florida because of his passion for helping others. 
                         </p>
                         <p>
                             <img src={require("../phone@2x.png")} alt="" style={{height: '20px', width: '21px', marginRight: '12px'}} /> <a className="contact-link" href="tel:+1-786-609-8208">(786)-609-8208</a><br/><br/>
