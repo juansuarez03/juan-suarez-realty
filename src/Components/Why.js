@@ -6,7 +6,7 @@ class Why extends Component {
         return(
             <div id="why-container">
                 <h1>Why <hr style={{height: "1px"}} /></h1>
-                <p id="why-paragraph">In Miami it’s is hard to find a dependable Real Estate Agent. 
+                <p id="why-paragraph">In Miami it is hard to find a dependable Real Estate Agent. 
                 Many Realtors do not answer the phone, do not respond promptly, and are simply not the best negotiators. 
                 I am a young motivated professional that can assure you transparent communication and determined commitment. 
                 I am passionate about helping you achieve your property goals. I was raised in Miami my whole life. 
